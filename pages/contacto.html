@@ -19,63 +19,90 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 col-12">
                     <h1>MEGA PC</h1>
                 </div>
-                <nav class="col-8">
+                <nav class="col-md-8 col-12 text-right">
                     <ul>
                         <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="contacto.html">contacto</a></li>
-                        <li><a href="computacion.html">computacion</a></li>
-                        <li><a href="seguridad.html">seguridad</a></li>
-                        <li><a href="gaming.html">gaming</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="computacion.html">Computación</a></li>
+                        <li><a href="seguridad.html">Seguridad</a></li>
+                        <li><a href="gaming.html">Gaming</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <section>
-        <h2>Formulario de contacto</h2>
-        <form action="">
-            <label for="nombre"></label>
-            <input type="text" placeholder="nombre y apellido">
-            <label for="email"></label>
-            <input type="email" placeholder="ingrese aqui su email">
-            <label for="number"></label>
-            <input type="number" placeholder="numero de telefono">
-            <label for="mensaje"></label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="escriba aqui su consulta"></textarea>
-            <input type="submit" value="enviar">
-        </form>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="text-center">Formulario de contacto</h2>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" class="form-control" id="nombre"
+                                placeholder="Ingrese su nombre y apellido">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" class="form-control" id="telefono"
+                                placeholder="Ingrese su número de teléfono">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="5"
+                                placeholder="Escriba aquí su consulta"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container-fluid">
             <div class="row">
                 <p class="col-12">
-                    Las imagénes son de carácter ilustrativo y
-                    <b>no son contractuales.</b><b>Copyright 1990-2023|</b> Todos los
-                    derechos reservados. Ciudad Autonoma de Buenos Aires, Argentina.
+                    Las imágenes son de carácter ilustrativo y <b>no son contractuales.</b> &copy; 1990-2023 Todos los
+                    derechos reservados. Ciudad Autónoma de Buenos Aires, Argentina.
                 </p>
             </div>
-            <div class="row" class="redes">
-                <p class="col-12">Siguenos en nuestras redes.</p>
-            </div>
             <div class="row">
-                <a href="#" class="facebook">
-                    <i class="fa-brands fa-square-facebook"></i>
-                </a>
-                <a href="#" class="instagram">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-                <a href="#" class="twitter">
-                    <i class="fa-brands fa-square-twitter"></i>
-                </a>
-                <a href="#" class="youtube">
-                    <i class="fa-brands fa-square-youtube"></i>
-                </a>
+                <p class="col-12 text-center">Síguenos en nuestras redes.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a href="#" class="facebook">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="instagram">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="twitter">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="youtube">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
 </body>
+
 
 </html>

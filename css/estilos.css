@@ -4,6 +4,7 @@ box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&family=Roboto+Slab:wght@500&display=swap');
 
+
 /* header */
 header {
 background-color: #5F264A;
@@ -19,11 +20,24 @@ list-style-type: none;
 padding: 0;
 }
 header div nav ul li {
-margin: 0 10px;
-}
+  margin: 0 10px;
+  }
 header div nav ul li a {
 color: #B0A4A4;
 text-decoration: none;
+}
+/*principal*/
+
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+p {
+  text-align: center;
+}
+.presupuesto{
+  text-decoration: none;
+  text-align: center;
 }
 
 /* footer */
