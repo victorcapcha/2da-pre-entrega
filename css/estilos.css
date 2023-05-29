@@ -26,17 +26,13 @@ header div nav ul li a {
 color: #B0A4A4;
 text-decoration: none;
 }
-/*principal*/
 
+/*principal*/
 h2 {
   text-align: center;
   margin: 20px;
 }
 p {
-  text-align: center;
-}
-.presupuesto{
-  text-decoration: none;
   text-align: center;
 }
 
