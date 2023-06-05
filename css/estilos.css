@@ -47,12 +47,16 @@ p {
 }
 
 img {
-  margin: 20px;
+  margin: 10px;
 }
 
 /* footer */
 footer {
-  background-color: aqua;
+  background-color: #A5D7E8;
+}
+
+form div {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
