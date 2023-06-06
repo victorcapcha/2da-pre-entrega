@@ -34,15 +34,7 @@ header ul li a {
   margin: 20px;
 }
 
-h3 {
-  text-align: center;
-}
-
-p {
-  text-align: center;
-}
-
-.presupuesto {
+.card {
   text-decoration: none;
   text-align: center;
 }
@@ -54,6 +46,8 @@ img {
 /* footer */
 footer {
   background-color: #A5D7E8;
+  position: fixed;
+  bottom: 0;
 }
 
 .facebook {

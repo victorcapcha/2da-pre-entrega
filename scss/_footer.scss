@@ -1,6 +1,8 @@
   /* footer */
   footer {
     background-color: $color-footer;
+    position: fixed;
+    bottom: 0;
   }
   .facebook{
     color: blue;
