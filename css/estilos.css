@@ -48,6 +48,7 @@ footer {
   background-color: #A5D7E8;
   position: fixed;
   bottom: 0;
+  width: 100%;
 }
 
 .facebook {
@@ -56,10 +57,6 @@ footer {
 
 .youtube {
   color: red;
-}
-
-.instagram {
-  color: rgb(161, 23, 64);
 }
 
 form div {
