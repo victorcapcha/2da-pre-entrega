@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/*variabels*/ /*header*/
+/*variables*/ /*header*/
 header {
   background-color: #5F264A;
 }
@@ -44,6 +44,7 @@ p {
 
 .presupuesto {
   text-decoration: none;
+  text-align: center;
 }
 
 img {
@@ -53,6 +54,18 @@ img {
 /* footer */
 footer {
   background-color: #A5D7E8;
+}
+
+.facebook {
+  color: blue;
+}
+
+.youtube {
+  color: red;
+}
+
+.instagram {
+  color: rgb(161, 23, 64);
 }
 
 form div {
